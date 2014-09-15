@@ -22,5 +22,4 @@ Uses
 
 Run tests with 
 
-    '''
     tests/run.sh
