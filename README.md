@@ -9,17 +9,18 @@ Built on top of the wonderful, and more versatile, svg-crowbar.
 
 I'm testing it on hedonometer.org, and remaining issues are converting to a PDF correctly. But this is likely a result of haphazard use of CSS styles in the page design.
 
-* Dependencies *
+**Dependencies**
 
-1. phantomjs
+* phantomjs
 
-* Testing *
+**Testing**
 
 Uses
-1. inkscape
-2. CairoSVG
+
+* inkscape
+* CairoSVG
 
 Run tests with 
 
-    '''bash
+    '''
     tests/run.sh
