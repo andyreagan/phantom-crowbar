@@ -13,6 +13,7 @@ I'm testing it on hedonometer.org, and remaining issues are converting to a PDF 
 
 * phantomjs
 
+
     brew install phantomjs
 
 **Usage**
@@ -30,10 +31,10 @@ Uses
 
 * inkscape
 
-    brew install inkscape
-
 * CairoSVG
 
+
+    brew install inkscape
     pip install CairoSVG
 
 Run tests with 
@@ -43,3 +44,5 @@ Run tests with
 
 Inkscape will throw a lot of warnings.
 As mentioned above, there are still plenty of kinks to work out.
+
+
