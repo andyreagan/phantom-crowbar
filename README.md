@@ -13,14 +13,15 @@ I'm testing it on hedonometer.org, and remaining issues are converting to a PDF 
 
 * phantomjs
 
-
-    brew install phantomjs
+```bash
+brew install phantomjs
+```
 
 **Usage**
 
 Clone this repository.
 
-Run the phantom-crowbar.js with phantomjs, passing the webpage, the id of the svg element to grab, and the output filename.
+Run the `phantom-crowbar.js` with `phantomjs`, passing the webpage, the id of the svg element to grab, and the output filename.
 Here's the first line of test/run.sh:
 
     phantomjs phantom-crowbar.js http://hedonometer.org timeseries test1.svg
@@ -30,17 +31,19 @@ Here's the first line of test/run.sh:
 Uses
 
 * inkscape
-
 * CairoSVG
 
-
-    brew install inkscape
-    pip install CairoSVG
+```bash
+brew install inkscape
+pip install CairoSVG
+```
 
 Run tests with 
 
-    cd test
-    . run.sh
+```bash
+cd test
+. run.sh
+```
 
 Inkscape will throw a lot of warnings.
 As mentioned above, there are still plenty of kinks to work out.
